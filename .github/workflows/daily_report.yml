@@ -1,6 +1,7 @@
 name: Daily Report
 
 on:
+workflow_dispatch:
   schedule:
     - cron: '30 22 * * *'
 
